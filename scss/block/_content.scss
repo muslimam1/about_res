@@ -1,0 +1,124 @@
+.content__title{
+    padding-top: 48px;
+    font-weight: 900;
+    font-size: 24px;
+    line-height: 133%;
+    text-align: center;
+    color: #83888f;
+    margin-bottom: 72px;
+}
+.content__block{
+    margin-bottom: 88px;
+}
+.content__itmes{
+    text-align: center;
+    align-items: center;
+    margin-left: auto;
+    margin-right: auto;
+}
+.content__link1{
+    font-weight: 900;
+    font-size: 28px;
+    line-height: 129%;
+    text-align: center;
+    color: #333d4b;
+    margin-bottom: 22px;
+
+    &::before{
+        content: " ";
+        width: 42px;
+        height: 50px;
+        padding-top: 20px;
+        margin-left: auto;
+        margin-right: auto;
+        margin-bottom: 48px;
+        display: inline-block;
+        background-repeat: no-repeat;
+        background-image: url('../img/united.svg');
+        background-position: top center;
+    }
+}
+.content__link2{
+    font-weight: 900;
+    font-size: 28px;
+    line-height: 129%;
+    text-align: center;
+    color: #333d4b;
+    margin-bottom: 22px;
+
+    &::before{
+        content: " ";
+        width: 52px;
+        height: 50px;
+        margin-left: auto;
+        margin-right: auto;
+        margin-bottom: 48px;
+        display: inline-block;
+        background-repeat: no-repeat;
+        background-image: url('../img/canada.svg');
+        background-position: top center;
+    }
+}
+.content__link3{
+    font-weight: 900;
+    font-size: 28px;
+    line-height: 129%;
+    text-align: center;
+    color: #333d4b;
+    margin-bottom: 22px;
+
+    &::before{
+        content: " ";
+        width: 49px;
+        height: 44px;
+        margin-left: auto;
+        margin-right: auto;
+        margin-bottom: 48px;
+        display: inline-block;
+        background-repeat: no-repeat;
+        background-image: url('../img/austrya.svg');
+        background-position: top center;
+    }
+}
+.content__text{
+    font-weight: 400;
+    font-size: 16px;
+    line-height: 162%;
+    text-align: center;
+    color: #333d4b;
+    margin-bottom: 7px;
+}
+
+@media screen and (min-width:768px) {
+    .content__list{
+        display: flex;
+        text-align: start;
+    }
+    .content__title{
+        text-align: start;
+    }
+    .content__itmes{
+        gap: 20px;
+    }
+    .content__text{
+        text-align: start;
+    }
+    .content__link1{
+        text-align: start;
+    }
+    .content__link2{
+        text-align: start;
+    }
+    .content__link3{
+        text-align: start;
+    }
+}
+
+@media screen and (min-width:992px) {
+    .content__block{
+        will-change: 1045px;
+    }
+    .content__itmes{
+        gap: 37px;
+    }
+}
